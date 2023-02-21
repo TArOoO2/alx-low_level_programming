@@ -10,7 +10,7 @@
 
 int _putchar(char c)
 {
-	char ch = "_putchar";
-	putchar(ch + "/n")
+	char c = "_putchar";
+	putchar(c + "/n")
 	return (0);
 }
