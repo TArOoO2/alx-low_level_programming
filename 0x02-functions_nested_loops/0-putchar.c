@@ -8,9 +8,10 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _putchar(char c)
+int main(void)
 {
 	char c = "_putchar";
-	putchar(c + "/n")
+	putchar(c);
+	putchar('/n);
 	return (0);
 }
