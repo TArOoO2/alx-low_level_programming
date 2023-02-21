@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * _putchar - writes the character c to stdout
@@ -10,7 +10,8 @@
 void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++ )
-		putchar(c);
-	putchar("/n");
+		_putchar(c);
+	_putchar("/n");
 }
