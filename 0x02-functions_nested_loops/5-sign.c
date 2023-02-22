@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* main - check the code.
-*
-* Return: Always 0.
+*main - check the code.
+*print_sign - check the sign of the input.
+*@n: character to test.
+*Return: Always 0.
 */
 int print_sign(int n)
 {
